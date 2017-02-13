@@ -1,0 +1,24 @@
+vagrant使用手册
+1、安装
+https://www.vagrantup.com
+https://www.virtualbox.org/wiki/Downloads
+
+2.使用命令
+vagrant -v
+
+mkdir path
+
+cd path
+
+vagrant init ubuntu/trusty64
+
+vagrant up
+
+vagrant ssh
+
+Vagrantfile文件添加如下内容设置内存
+config.vm.provider "virtualbox" do |v|
+  v.memory = 2048
+end
+
+vagrant reload
