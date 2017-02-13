@@ -1,0 +1,6 @@
+vagrant使用手册
+1、安装
+https://www.vagrantup.com
+https://www.virtualbox.org/wiki/Downloads
+
+2.使用
